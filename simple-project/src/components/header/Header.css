@@ -1,0 +1,47 @@
+/*Header CSS start*/
+.topbar{
+    position:fixed;
+    width:100%;
+    height: 5em;
+    top: 0;
+    left: 0;
+}
+.header_topbar{
+	background: linear-gradient(180deg, #8A282F 0%, #8C2D32 48.44%, #903737 68.75%, #C98B8D 100%);
+	position: relative;
+	width: 100%;
+	line-height: 0.428571em;;
+	padding: 0;
+	margin: 0;
+}
+.header-border{
+    background: linear-gradient(180deg, #E96765 0%, #A83733 100%);
+    border: 1px solid #7D0101;
+    box-sizing: border-box;
+    height: 1em;
+}
+
+.logo_img{
+  text-align: center;
+}
+
+.card_img{
+  text-align: center;
+  margin-top: 4em;
+}
+
+.content{
+    margin-top: 10em;
+    margin-bottom: 10em;
+    position: fixed;
+    width: 100%;
+    height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.content-wrap {
+    width: 90%;
+    margin: auto;
+}
+

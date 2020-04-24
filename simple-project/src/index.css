@@ -1,0 +1,251 @@
+*{margin:0; padding:0;}
+body{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+    font-size: 1em;
+    color: #333;
+    height: 100vh;
+    background-color:#ffffff;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/*Card templates*/
+.card_panel p{
+    font-size: 1.2em;
+    color: #525252;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.5em;
+}
+/*link button*/
+.linkbtn{
+    color: #8B2B30;
+    font-weight: 500;
+    font-size: 1.6em;
+    text-decoration: underline;
+    position: absolute;
+    margin-top: -0.4em;
+}
+.linkbtn:hover{
+    color: #8B2B30;
+}
+.mi_btns{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+.mandate_btn{
+    background: #8B2B30;
+    width: 20em;
+    color: #fff;
+    font-size: 1.6em;
+    border-radius: 0px;
+    padding: 0.7em;
+}
+.mandate_btn:hover{
+    background: #8B2B30;
+    color: #fff;
+}
+.invoice_btn{
+    background: #E9E9E9;
+    width: 20em;
+    color: #767574;
+    font-size: 1.6em;
+    border-radius: 0px !important;
+    padding: 0.7em;
+}
+.invoice_btn:hover{
+    background: #E9E9E9;
+    color: #767574;
+}
+.back-btn{
+    border: 1px solid #8B2B30 !important;
+    background: #fff !important;
+    color: #8B2B30 !important;
+    border-radius: 0px !important;
+    font-size: 1.1em !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    padding: 0.1em 1em !important;
+    margin-right: 0.5em !important;
+}
+.back-btn:hover{
+    background: #fff;
+    color: #8B2B30;
+ }
+ .confirm-btn{
+    background: #8B2B30 !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+    font-size: 1.1em !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    padding: 0.1em 1em !important;
+ }
+.confirm-btn:hover{
+    background: #8B2B30;
+    color: #fff;
+ }
+ .common-btn{
+    float: right;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-right: 0;
+ }
+ .badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 2px 5px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #CF0404;
+    border: 0.5px solid #E9E9E9;
+    border-radius: 10px;
+    margin-left: -6px;
+}
+.btn .badge {
+    position: relative;
+    top: -10px;
+}
+/*table css*/
+.e-table{
+    width: 78%;
+    margin: auto;
+    margin-top: 1em;
+}
+.e-table th{
+    font-size: 0.8em;
+    vertical-align: middle !important;
+    padding: 0.6em 3em 0.6em 4em !important;
+    text-align: left;
+    background: #F2F2F2;
+}
+.e-table td{
+    font-size: 0.8em;
+    vertical-align: middle !important;
+    padding: 0.6em 3em 0.6em 4em !important;
+    text-align: left;
+}
+.table-bottom-border{
+    border-bottom: 1px solid #ddd;
+}
+.row_bold{
+    font-weight: 500;
+}
+/*Modal css*/
+.modal-heading{
+    font-size: 1.5em;
+    text-align: center;
+}
+.modal-content{
+    border-radius: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50%;
+    width: 47em;
+    margin-left: 8em;
+}
+ .no-btn{
+    background: #ACA4A4;
+    color: #fff;
+    border-radius: 0px;
+    font-size: 1.7em;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.3em 2em;
+ }
+ .no-btn:hover{
+    background: #ACA4A4;
+    color: #fff;
+}
+ .yes-btn{
+    background: #00B050;
+    color: #fff;
+    border-radius: 0px;
+    font-size: 1.7em;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.3em 2em;
+ }
+ .yes-btn:hover{
+    background: #00B050;
+    color: #fff;
+}
+ .modal-btn{
+    text-align: center;
+    margin-top: 4em;
+ }
+ .quemark{
+    color: #8B2B30;
+    font-size: 1.5em;
+    vertical-align: middle;
+    margin-right: 0.5em;
+ }
+ .checkicon{
+    font-size: 1.5em;
+    vertical-align: middle;
+    margin-right: 0.3em;
+ }
+
+ /*notification*/
+ .mandate_notification{
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    color: #4D8825;
+    font-weight: 500;
+ }
+ /*Breadcrumb*/
+ ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background: #fff;
+
+}
+.breadcrumb{
+    width: 81%;
+    margin: auto;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 13px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "|\00a0";
+}
+ul.breadcrumb li a {
+  color: #444444;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #444444;
+}
+
+/* edit icon */
+.editicon{
+  cursor: pointer;
+}
+.eciticon_color{
+  color: #8B2B30;
+}
+.bellicon_color{
+    color: #CF0404;
+}
+.group-bittons{
+    position: relative;
+    display: inline-block !important;
+    vertical-align: middle;
+}
+
+.loader-overlay-position{
+  position: inherit !important;
+}

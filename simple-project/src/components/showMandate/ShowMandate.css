@@ -1,0 +1,79 @@
+.card_img{
+  text-align: center;
+  margin-top: 4em;
+}
+
+.content_mandate{
+  margin-top: 6em;
+  margin-bottom: 6em;
+  position: fixed;
+  width: 100%;
+  height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.content-wrap {
+  width: 50%;
+  margin: auto;
+}
+/*main_panel*/
+.main_panel {
+  left: 50%;
+}
+.sun_panel p {
+  font-size: 1.4em;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+}
+
+.react-tabs__tab--selected{
+  background: #8B2B30 !important;
+  color: White !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+.react-tabs ul li{
+  background: #F1F1F1;
+  color: #767574;
+  padding: 0.5em 4em;
+  font-weight: 600;
+  bottom: 0px;
+  border: none;
+}
+
+.mandate_input_box {
+  width: 10em !important;
+    text-align: left;
+    height: 2em !important;
+    font-size: 13px !important;
+    padding: 1em 0.3em !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+}
+
+.mandate_notification{
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  color: #4D8825;
+  font-weight: 500;
+}
+
+.datepicker_border{
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 0px !important;
+  height: 2.4em !important;
+  font-size: 0.9em;
+  border: 1px solid #CFCFCF !important;
+  padding-left: 0.4em;
+  color: #495057;
+}
+
+.react-datepicker-popper {
+  z-index: 9999 !important;
+}
+
+
